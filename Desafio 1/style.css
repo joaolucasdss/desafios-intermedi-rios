@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Public Sans menu";
+    src: url('./Fonte/static/PublicSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Public Sans Logo";
+    src: url("./Fonte/static/PublicSans-ExtraBold.ttf");
+}
+
+.cabecalho {
+    font-size: 15px;
+    /* min-width: 500px;
+    max-width: none; */
+    /* transform: translateY(-20%); */
+
+}
+
+.cabecalho .titulo {
+    display: inline-block;
+    right: 10px;
+    position: relative;
+    font-size: 20px;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    font-family: "Public Sans Logo";
+    vertical-align: middle;
+}
+
+.cabecalho nav {
+    float: right;
+    position: relative;
+    right: 400px;
+    font-family: "Public Sans menu";
+
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.cabecalho a {
+    color: #000;
+    padding: 10px;
+    margin: -15px;
+    vertical-align: middle;
+}
+
+a:hover {
+    background-color: #5BC241;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+a:active {
+    color:white
+}
+
+a:visited {
+    color: none;
+}
+
+.cabecalho button {
+    display: inline-block;
+    bottom: 50px;
+    background-color: #5BC241;
+    position: relative;
+    right: -180%;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.cabecalho img {
+    width: auto;
+    height: 40px;
+    top: 15px;
+    position: relative;
+    float: left;
+    vertical-align: middle;
+}
+
+@media (max-width: 576px) {
+    .cabecalho .titulo {
+        margin: 0;
+        display: block;
+        text-align: center;   
+    }
+
+    .cabecalho img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
