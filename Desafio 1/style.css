@@ -30,20 +30,18 @@
 .cabecalho nav {
     float: right;
     position: relative;
-    right: 400px;
+    right: 20px;
     font-family: "Public Sans menu";
 
 }
 
 .cabecalho nav li {
     display: inline-block;
-    margin: 10px;
 }
 
 .cabecalho a {
     color: #000;
     padding: 10px;
-    margin: -15px;
     vertical-align: middle;
 }
 
@@ -66,17 +64,13 @@ a:visited {
     color: none;
 }
 
-.cabecalho button {
+.cabecalho .cadastro {
     display: inline-block;
-    bottom: 50px;
     background-color: #5BC241;
-    position: relative;
-    right: -180%;
     color: white;
     border:none;
     border-radius: 5px;
     padding: 10px;
-    vertical-align: middle;
 }
 
 .cabecalho img {
@@ -88,16 +82,51 @@ a:visited {
     vertical-align: middle;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 375px) {
     .cabecalho .titulo {
-        margin: 0;
         display: block;
-        text-align: center;   
+        margin: 0 auto;
+        right: 0%;
+        text-align: center;
+        top: 44px;
+        font-size: 40px;
     }
 
     .cabecalho img {
+        display: inline-block;
+        top: 87px;
+        float: none;
+        margin: 0 auto;
+        left: 11%;
+    }
+
+    .cabecalho .cadastro {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        top: 20px;
+        position: relative;
+        margin: 0 auto;
+        width: 35%;
+        font-size: 15px;
+    }
+
+    .cabecalho nav {
+        display: block;
+        text-align: center;
+        float: none;
+        position: relative;
+        margin: 0 auto;
+        top: 100px;
+    }
+
+    .cabecalho nav li {
+        display: block;
+        text-align: center;
+        float: none;
+        padding: 20px;
+        /* font-size: 40px; */
+    }
+
+    .cabecalho nav li a {
+        font-size: 40px;
     }
 }
