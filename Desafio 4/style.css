@@ -24,10 +24,12 @@ img {
 
 h1 {
     font-family: "Public Sans Titulo";
+    font-size: 29px;
 }
 
 p {
     font-family: "Public Sans Subtitulo";
+    font-size: 19px;
 }
 
 div {
