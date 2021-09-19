@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Public Sans Subtitulo";
+    src: url("./Fonte/static/PublicSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "Public Sans Titulo";
+    src: url("./Fonte/static/PublicSans-Bold.ttf");
+}
+
+.container-rome,
+.container-two-boats,
+.container-sand-and-sea,
+.container-starry-night {
+    display: inline-block;
+    margin: 18px;
+}
+
+span {
+    font-family:"Public Sans Titulo";
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container-rome {
+    position: relative;
+}
+
+.rome {
+    width: 335px;
+    height: 431px;
+}
+
+.titulo-rome {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    font-size: 30px;
+    font-family: "Public Sans Subtitulo";
+    color: white;
+    width: 300px;
+}
+
+.container-two-boats {
+    position: relative;
+}
+
+.two-boats {
+    width: 335px;
+    height: 431px;
+}
+
+.titulo-two-boats {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    font-size: 30px;
+    font-family: "Public Sans Subtitulo";
+    color: white;
+    width: 300px;
+}
+
+.container-sand-and-sea {
+    position: relative;
+}
+
+.sand-and-sea {
+    width: 335px;
+    height: 431px;
+}
+
+.titulo-sand-and-sea {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    font-size: 30px;
+    font-family: "Public Sans Subtitulo";
+    color: white;
+    width: 300px;
+}
+
+.container-starry-night {
+    position: relative;
+}
+
+.starry-night {
+    width: 335px;
+    height: 431px;
+}
+
+.titulo-starry-night {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    font-size: 30px;
+    font-family: "Public Sans Subtitulo";
+    color: white;
+    width: 300px;
+}
+
+@media (max-width:375px) {
+    .container-rome,
+    .container-two-boats,
+    .container-sand-and-sea,
+    .container-starry-night {
+    display: block;
+    margin: 0 auto;
+    }
+
+    .rome,
+    .two-boats,
+    .sand-and-sea,
+    .starry-night {
+        margin: 0 auto;
+        display: block;
+        height: 432px;
+        width: 335px;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+
+ 
+} 
+
+
