@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Public Sans Subtitulo";
+    src: url("./Fonte/static/PublicSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "Public Sans Titulo";
+    src: url("./Fonte/static/PublicSans-Bold.ttf");
+}
+
+html {
+    background-color: #181D29;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 78px;
+    height: 87px;
+}
+
+h1 {
+    font-family: "Public Sans Titulo";
+}
+
+p {
+    font-family: "Public Sans Subtitulo";
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+    margin: 100px;
+}
+
+.react,
+.docker,
+.sass {
+    position: relative;
+    bottom: 150px;
+}
+
+@media (max-width: 375px) {
+    div {
+        display: block;
+        margin: 50px;
+    }
+
+    .react,
+    .docker,
+    .sass {
+        position: relative;
+        bottom: 0px;
+    }
+
+    ul {
+        padding: 0;
+    }
+}
